@@ -8,7 +8,7 @@ int   old_sensor_val = 0;
 int   brightness = 0;
 int   com_input = 0;
 
-void clearSerialBuffer()
+void clear_serial_buffer()
 {
   while (Serial.available() > 0)
   {
@@ -50,7 +50,7 @@ void loop() {
     com_input = Serial.parseInt();
     brightness = com_input % 256;
     update_display(brightness);
-    clearSerialBuffer();
+    clear_serial_buffer();
   }
   
  float  voltage = new_sensor_val * (5.0 / 1023.0);
