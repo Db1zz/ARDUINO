@@ -58,6 +58,10 @@ body {
     color: inherit;
 }
 
+.active-color {
+    border: 2px solid white; 
+}
+
 /* Color Macros */
 .RED {
     background-color: red;
