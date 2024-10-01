@@ -1,0 +1,76 @@
+/* Background Color for the Page */
+body {
+    background-color: #202040;
+    margin: 0;
+    padding: 0;
+}
+
+/* Box Styles */
+.box {
+    background-color: #543864;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+/* Grid Container to center the grid */
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); /* 8 columns, fixed width */
+    grid-template-rows: repeat(8, 50px);    /* 8 rows, fixed height */
+    gap: 5px; /* Space between the buttons */
+}
+
+/* Grid Buttons (Fixed Size) */
+.grid-btn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Square Buttons in Right Column */
+.square-btn {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: none;
+}
+
+/* Color Buttons in Left Column */
+.color-btn {
+    width: 80px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.color-btn:hover {
+    background-color: white;
+    color: inherit;
+}
+
+/* Color Macros */
+.RED {
+    background-color: red;
+}
+
+.YELLOW {
+    background-color: yellow;
+}
+
+.GREEN {
+    background-color: green;
+}
+
+.BLUE {
+    background-color: blue;
+}
