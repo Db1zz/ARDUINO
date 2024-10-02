@@ -3,8 +3,8 @@
 #include <FS.h>  // Include the SPIFFS library for file system support
 #include <Adafruit_NeoPixel.h>
 
-const char* ssid = "your_SSID";
-const char* password = "your_PASSWORD";
+const char* ssid = "clown))";
+const char* password = "ghoul558";
 
 ESP8266WebServer server(80);
 
